@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title></title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $('#header').load('https://www.clubfamily.de/e-domizil-header');
+        $('#footer').load('https://www.clubfamily.de/e-domizil-footer');
+      });
+    </script>
+    <style>
+      .navbar .nav {
+        display: inline-block !important;
+      }
+      .col-md-pull-3 {
+        right: 0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="container"></div>
+    <div id="footer"></div>
+  </body>
+</html>
